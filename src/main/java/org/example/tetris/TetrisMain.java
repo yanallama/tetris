@@ -79,8 +79,10 @@ public class TetrisMain {
             }
 
             // Remove completed rows and reduce heights for each row
+            int adjIdx = 0;
             for (int idx : completedRows) {
-                grid.remove(idx);
+                grid.remove(idx - adjIdx);
+                adjIdx++; // offset for deleted rows
                 for (int i = 0; i < WIDTH; i++) {
                     if (heights[i] > 0)
                         heights[i] -= 1;
