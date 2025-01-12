@@ -24,6 +24,7 @@ public class TetrisMainTest {
         List<TestCase> testCases = List.of(
                 new TestCase("simple test", "Q0", 2),
                 new TestCase("simple test 2", "Q0,Q0", 4),
+                new TestCase("simple test 2.2", "Q0,Q1", 4),
                 new TestCase("completed line test", "I0,I4,Q8", 1),
                 new TestCase("simple test 3", "T1,Z3,I4", 4),
                 new TestCase("Many blocks test", "Q0,Q0,Q0,Q0,Q0,Q0,Q0,Q0,Q0,Q0,Q0,Q0,Q0,Q0,Q0,Q0,Q0,Q0,Q0,Q0,Q0,Q0,Q0,Q0,Q0,Q0,Q0,Q0,Q0,Q0,Q0,Q0,Q0,Q0,Q0,Q0,Q0,Q0,Q0,Q0,Q0,Q0,Q0,Q0,Q0,Q0,Q0,Q0,Q0,Q0", 100)
