@@ -28,7 +28,7 @@ public class TetrisMainTest {
                 new TestCase("simple test 3", "T1,Z3,I4", 4),
                 new TestCase("Many blocks test", "Q0,Q0,Q0,Q0,Q0,Q0,Q0,Q0,Q0,Q0,Q0,Q0,Q0,Q0,Q0,Q0,Q0,Q0,Q0,Q0,Q0,Q0,Q0,Q0,Q0,Q0,Q0,Q0,Q0,Q0,Q0,Q0,Q0,Q0,Q0,Q0,Q0,Q0,Q0,Q0,Q0,Q0,Q0,Q0,Q0,Q0,Q0,Q0,Q0,Q0", 100),
 
-                // Additional test cases added based on the imput.txt file
+                // Additional test cases added based on the input.txt file
                 new TestCase("t1", "Q0,Q1", 4),
                 new TestCase("t2", "Q0,Q2,Q4,Q6,Q8", 0),
                 new TestCase("t3", "Q0,Q2,Q4,Q6,Q8,Q1", 2),
