@@ -45,3 +45,4 @@ bin/
 ### Python ###
 __pycache__
 .pytest_cache
+/.idea/
